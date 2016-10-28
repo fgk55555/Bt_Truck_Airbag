@@ -1,0 +1,5 @@
+Bt-Truck-Airbag is a general arduino program that communicates to the HC-06 bluetoon module over serial connection.
+The HC-06 does not use any special libraries, so the raw source code will also with the the arduino serial monitor.
+HC-06 ==> https://www.amazon.com/dp/B00OLL9XH0/ref=twister_B014J2QWGK?_encoding=UTF8&psc=1
+The arduino code is used to control active low solenoid relays to fill and empty suspension airbags.  It has 6 buttons to control a combination of 4 outputs.  The code on both the app and arduino self clear all other buttons when pressed.  The app was developed in the MIT app inventor, heavily borrowed from the following:
+http://www.instructables.com/id/Connect-Arduino-Uno-to-Android-via-Bluetooth/step4/App-Inventor-Code-Introduction/
